@@ -11,14 +11,14 @@ void tearDown(void)
     // clean stuff up here
 }
 
-void test_add()
+void test_twoSum()
 {
-    TEST_ASSERT_EQUAL_INT(4, add(2,2));
+    TEST_ASSERT_EQUAL_INT(4, twoSum(NULL, 2,2, NULL));
 }
 
 int main(void)
 {
     UNITY_BEGIN();
-    RUN_TEST(test_add);
+    RUN_TEST(test_twoSum);
     return UNITY_END();
 }
