@@ -53,7 +53,7 @@ Mkfile.old
 dkms.conf
 
 # Binaries
-bin/*
+code/*/bin/*
 
 # Etc
 .vscode
